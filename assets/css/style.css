@@ -325,7 +325,7 @@ section {
 .step-text h4 {
     font-size: 26;
     line-height: 1.5;
-    color: #204e76;
+    color: var(--secondary-color);
 }
 
 .steps p {
@@ -454,6 +454,7 @@ section {
     background: var(--tertiary-color);
 }
 
+/* utilities */
 .text-left {
     text-align: left;
 }
@@ -543,6 +544,11 @@ section {
 
     .step-text {
         flex: 100%
+    }
+
+    .trainer-bio h3, 
+    .trainer-bio h4 {
+        display:block;
     }
 }
 
